@@ -1,0 +1,61 @@
+/* General Layout */
+body { 
+    font-family: 'Segoe UI', Tahoma, sans-serif; 
+    padding: 20px; 
+    background-color: #f4f4f9; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.container, .message-box { 
+    max-width: 500px; 
+    width: 100%;
+    background: white; 
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+}
+
+/* Typography */
+h2 { text-align: center; color: #006400; margin-bottom: 25px; }
+
+/* Form Elements */
+label { display: block; margin-top: 15px; font-weight: 600; font-size: 0.9rem; color: #333; }
+input, select, textarea { 
+    width: 100%; 
+    padding: 12px; 
+    margin-top: 8px; 
+    border: 1.5px solid #ddd; 
+    border-radius: 6px; 
+    box-sizing: border-box; 
+    transition: 0.2s; 
+}
+
+input:focus, select:focus, textarea:focus { 
+    border-color: #006400; 
+    outline: none; 
+}
+
+/* Button */
+button { 
+    width: 100%; 
+    padding: 15px; 
+    margin-top: 25px; 
+    background: #006400; 
+    color: white; 
+    border: none; 
+    border-radius: 6px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: background 0.3s; 
+}
+button:hover { background: #004d00; }
+
+/* Success Page Styling */
+.message-box { text-align: center; }
+.message-box h1 { color: #006400; }
+.message-box a { color: #006400; font-weight: bold; text-decoration: none; display: block; margin-top: 20px; }

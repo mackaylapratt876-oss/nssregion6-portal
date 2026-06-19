@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSSC Region 6 | Admin Toolkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo Added Here -->
+        <img src="logo.png" alt="Region 6 Logo" style="width:150px; display:block; margin:0 auto 20px;">
+        
+        <h2>Administrator Toolkit Feedback</h2>
+        <form action="https://formspree.io/f/xqeorlgg" method="POST">
+            <!-- Redirects to your success page -->
+            <input type="hidden" name="_next" value="https://YOUR_GITHUB_PAGES_LINK/success.html">
+            
+            <label>Full Name:</label>
+            <input type="text" name="name" required>
+            
+            <label>Region:</label>
+            <input type="text" name="region" value="Region 6" readonly>
+            
+            <label>School:</label>
+            <select name="school" required>
+                <option value="">-- Select your school --</option>
+                <option value="Ascot High School">Ascot High School</option>
+                <option value="Bog Walk High School">Bog Walk High School</option>
+                <option value="Bridgeport High School">Bridgeport High School</option>
+                <option value="Cedar Grove Academy">Cedar Grove Academy</option>
+                <option value="Charlemont High School">Charlemont High School</option>
+                <option value="Cumberland High School">Cumberland High School</option>
+                <option value="Dinthill Technical High School">Dinthill Technical High School</option>
+                <option value="Eltham High School">Eltham High School</option>
+                <option value="Ewarton High School">Ewarton High School</option>
+                <option value="Glengoffe High School">Glengoffe High School</option>
+                <option value="Greater Portmore High School">Greater Portmore High School</option>
+                <option value="Guys Hill High School">Guys Hill High School</option>
+                <option value="Innswood High School">Innswood High School</option>
+                <option value="Jonathan Grant High School">Jonathan Grant High School</option>
+                <option value="Jose Marti Technical High School">Jose Marti Technical High School</option>
+                <option value="McGrath High School">McGrath High School</option>
+                <option value="Old Harbour High School">Old Harbour High School</option>
+                <option value="Spanish Town High School">Spanish Town High School</option>
+                <option value="St. Catherine High School">St. Catherine High School</option>
+                <option value="St. Jago High School">St. Jago High School</option>
+                <option value="St. Mary's College">St. Mary's College</option>
+                <option value="Tacius Golding High School">Tacius Golding High School</option>
+                <option value="The Enid Bennett High School">The Enid Bennett High School</option>
+                <option value="Waterford High School">Waterford High School</option>
+            </select>
+            
+            <label>Position:</label>
+            <select name="position" required>
+                <option value="President">President</option>
+                <option value="Vice President">Vice President</option>
+                <option value="Treasurer">Treasurer</option>
+                <option value="Public Relations Officer">Public Relations Officer</option>
+                <option value="Secretary">Secretary</option>
+                <option value="National Member">National Member</option>
+                <option value="Local Council Member">Local Council Member</option>
+            </select>
+            
+            <label>Toolkit Feedback:</label>
+            <textarea name="feedback" rows="8" required></textarea>
+            
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+</html>
